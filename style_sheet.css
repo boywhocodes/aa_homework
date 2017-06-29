@@ -1,0 +1,29 @@
+h1 {
+  font-size: 38px;
+  color: blue;
+}
+
+h2 {
+  font-size: 36px;
+  color: #01FF70;
+}
+
+body {
+  background-color: #7FDBFF;
+  background-image: image("http://img.taste.com.au/gOpVgvz8/taste/2016/11/classic-chewy-brownie-102727-1.jpeg");
+}
+
+.dope_photo {
+  width: 20px;
+
+}
+
+#test_id {
+  font-family: "Comic Sans MS";
+  color: #3D9970;
+}
+
+#test_id1 {
+  font-family: "Comic Sans MS";
+  color: #3D9970;
+}
