@@ -5,7 +5,7 @@ html, body, section, footer, h1, h2, h3, li {
   padding: inherit;
 
   font: inherit;
-  text-align: inherit;
+  /*text-align: inherit;*/
   text-decoration: inherit;
   text-shadow: inherit;
   color: inherit;
@@ -14,6 +14,17 @@ html, body, section, footer, h1, h2, h3, li {
   background: transparent;
 
 }
+
+/*header {*/
+  /*display: inline-block;*/
+  /*text-align: left;*/
+  /*margin: 0px;*/
+/*}*/
+
+/*#ingredients {
+  margin: 15px, 30px;
+
+}*/
 
 
 h1 {
@@ -26,15 +37,51 @@ h1 {
   font-size: 34px;
   font-family: cursive;
   color: blue;
-  text-align: center;
+  /*text-align: center;*/
   text-decoration: underline;
+  margin-left: 15px;
+  float: right;
+  /*text-align: right;*/
+  vertical-align: top;
 
 }
+
+/*Add in <article class="class_name" in order to group elements*/
 
 h2 {
   font-size: 32px;
   color: #01FF70;
-  text-align: center;
+  margin-left: 15px;
+  float: right;
+  /*text-align: right;*/
+  vertical-align: top;
+  /*text-align: center;*/
+}
+
+#wrapper{
+
+    overflow: hidden;
+}
+
+#c3 {
+  background-color: red;
+  float: left;
+}
+
+/*#list_link {
+  float: right;
+}*/
+.head_top {
+  float: right;
+}
+
+
+#title_pic {
+  /*margin-left: 15px;*/
+  width: 550px;
+  float: right;
+  /*text-align: right;*/
+  vertical-align: top;
 }
 
 body::before {
@@ -48,11 +95,26 @@ body::before {
   z-index: -5;
   background: url(http://img.taste.com.au/gOpVgvz8/taste/2016/11/classic-chewy-brownie-102727-1.jpeg);
 }
-body {
-    background-color: #7FDBFF;
-    text-align: center;
+/*ul {*/
+  /*margin: 0 auto;*/
+  /*width: 350px;*/
+    /*background-color: #7FDBFF;*/
+    /*text-align: left;*/
+    /*display: inline;*/
+    /*vertical-align: top;*/
+    /*float: left;*/
 
-}
+/*}*/
+
+/*ol {
+  width: 350px;
+  margin: 0 auto;
+  margin-left: 15px;
+  float: right;
+  /*text-align: right;*/
+  /*vertical-align: top;*/
+/*}
+
 /*{*/
 
   /*background-image: image("http://img.taste.com.au/gOpVgvz8/taste/2016/11/classic-chewy-brownie-102727-1.jpeg");*/
@@ -63,9 +125,7 @@ body {
 
 }*/
 
-section {
-text-align: justify;
-}
+
 
 .dope_photo {
   width: 20px;
@@ -75,6 +135,7 @@ text-align: justify;
 #title_id {
   font-family: "Comic Sans MS";
   color: #3D9970;
+  /*float: right;*/
 }
 
 #test_id1 {
@@ -95,6 +156,14 @@ input[type="radio"]:checked:after {
   visibility: visible;
   border: 3px solid navy;
   /*border: 2px solid white;*/
+}
+
+.ingreds {
+  float: left;
+}
+
+.instructs {
+  float: right;
 }
 
 /*input[type='radio']:checked:after {
