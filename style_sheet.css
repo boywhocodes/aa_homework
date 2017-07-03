@@ -47,7 +47,7 @@ h1 {
 }
 
 /*Add in <article class="class_name" in order to group elements*/
-
+/*re-organize sections by possibly just adding article classes.  Combine floats with extra detailings that were done extracurricularly*/
 h2 {
   font-size: 32px;
   color: #01FF70;
