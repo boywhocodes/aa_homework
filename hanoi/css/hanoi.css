@@ -1,0 +1,95 @@
+h1 {
+  text-align: center;
+  font-family: arial;
+  font-size: 100px;
+}
+
+.hanoi {
+  width: 660px;
+  margin: 0px auto;
+}
+
+ul {
+  display: inline;
+  float: left;
+  height: 210px;
+  width: 200px;
+  margin: 0px 10px;
+  padding: 0px;
+  padding-bottom: 10px;
+  border-bottom: 10px solid black;
+}
+
+ul:hover{
+  border-color: blue;
+}
+
+.selected {
+  border-color: red;
+}
+
+li {
+  list-style-type: none;
+  width: 200px;
+  height: 15px;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.disk-1 {
+  background-color: navy;
+  width: 70px;
+  border-radius: 80px;
+}
+
+.disk-2 {
+  background-color: navy;
+  width: 120px;
+  border-radius: 80px;
+}
+
+.disk-3 {
+  background-color: navy;
+  width: 130px;
+  border-radius: 80px;
+}
+.disk-4 {
+  background-color: navy;
+  width: 140px;
+  border-radius: 80px;
+}
+
+.disk-5 {
+  background-color: navy;
+  width: 150px;
+  border-radius: 80px;
+}
+
+.disk-6 {
+  background-color: navy;
+  width: 160px;
+  border-radius: 80px;
+}
+.disk-7 {
+  background-color: navy;
+  width: 170px;
+  border-radius: 80px;
+}
+.disk-8 {
+  background-color: navy;
+  width: 180px;
+  border-radius: 80px;
+}
+
+.disk-9 {
+  background-color: navy;
+  width: 190px;
+  border-radius: 80px;
+}
+
+.disk-10 {
+  background-color: navy;
+  width: 200px;
+  border-radius: 80px;
+}
