@@ -1,0 +1,42 @@
+.ttt {
+  width: 895px;
+  height: 895px;
+  padding: 50px, 50px;
+  margin: 0px auto;
+}
+
+.groard {
+
+    /*float: left;*/
+    list-style-type: none;
+    display: block;
+    padding: 0px;
+    width: 870px;
+    height: 870px;
+    border: 20px solid #87CEEB;
+}
+
+.grell {
+  display: inline;
+  width: 250px;
+  border: 20px solid #87CEEB;
+  font-size: 200px;
+  text-align: center;
+  height: 250px;
+  float: left;
+  background-color: #B0E0E6;
+}
+
+.grell:hover {
+  background-color: yellow;
+}
+
+h1 {
+  text-align: center;
+  color:
+;
+}
+h2  {
+  text-align: center;
+  color: blue;
+}
