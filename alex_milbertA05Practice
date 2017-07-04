@@ -1,0 +1,83 @@
+// write String.prototype.mySlice. It should take a start index and an
+// (optional) end index.
+String.prototype.mySlice(start) {
+  var start_ind = start
+  // var end_ind = this[this.length-1].index
+  return this.slice(start_ind);
+};
+
+
+// write Array.prototype.myReduce (analogous to Ruby's Array#inject).
+Array.prototype.myReduce() {
+  let acc = this[0]
+  for (var = i; i < this.length; i++) {
+    acc += this[i]
+  };
+  return acc;
+};
+// write Array.prototype.quickSort(comparator). Here's a quick refresher if
+// you've forgotten how quickSort works:
+//   - choose a pivot element from the array (usually the first)
+//   - for each remaining element of the array:
+//     - if the element is less than the pivot, put it in the left half of the
+//     array.
+//     - otherwise, put it in the right half of the array.
+//   - recursively call quickSort on the left and right halves, and return the
+//   full sorted array.
+
+Array.prototype.quickSort(comparator) {
+  let pivot = this[0]
+  let new_arr = []
+  if (comparator.length === 1) {
+    return comparator[0]
+  }
+    if (comparator[i] < pivot) {
+      new_arr.push(array[i])
+    }
+    Array.prototype.quickSort(comparator-1)
+
+};
+
+// write myFind(array, callback). It should return the first element for which
+// callback returns true, or undefined if none is found.
+
+function myFind(array, callback) {
+  for (var i = 0; i < array.length; i++) {
+    if (callback(i) === true) {
+      return i;
+    };
+  }
+  return undefined;
+}
+
+// write sumNPrimes(n)
+
+function sumNPrimes(n) {
+  let sum_arr = []
+  for (var i = 0; i < n; i++) {
+    for (var j = 2; j < i; j++) {
+      if (i % j !== 0) {
+        sum_arr.push(i);
+      }; //if
+    }; //for j
+  }; // for i
+  console.log(sum_arr);
+  return sum_arr.reduce();
+}
+
+// write Function.prototype.myBind.
+Function.prototype.myBind {
+  const fc = function(callback, element) {
+    this.callback(element);
+  };
+  return this
+}
+
+
+// write Function.prototype.inherits.
+Function.prototype.inherits {
+
+  this = prototype.new
+  this.prototype = Object.create(superClass)
+  this.prototype.constructor = this
+}
